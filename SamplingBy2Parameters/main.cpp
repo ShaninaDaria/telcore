@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
     Sampling sampl;
     sampl.createKit(1000, 500, 800);
     sampl.select(25, 225, 300, 600);
+    sampl.print();
 
     return a.exec();
 }
